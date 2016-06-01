@@ -36,6 +36,11 @@ Open cmd and go to [labelImg]
 
 `$ python labelImg.py`
 
+on ubuntu, if run into lapack error:
+`sudo apt-get install liblapack3` (if atlas and openblas are both installed)
+if run intuo opencv error:
+`sudo apt-get install python-opencv`
+
 ## Usage
 After cloning the code, you should run `$ make all` to generate the resource file.
 
